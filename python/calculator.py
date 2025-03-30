@@ -1,0 +1,1 @@
+WhileTrue: print(eval(input('>>>')))
