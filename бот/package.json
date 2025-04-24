@@ -1,0 +1,12 @@
+{
+  "name": "cs2-bot",
+  "private": true,
+  "dependencies": {
+    "python-shell": "^3.0.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prestart": "pip install pyautogui keyboard opencv-python numpy pywin32",
+    "start": "python cs2_bot.py"
+  }
+}
